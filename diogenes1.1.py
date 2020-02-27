@@ -78,7 +78,7 @@ class String:
         for x in self.lista1:
             for y in self.lista2:
                 self.lista_distribucion.append(x+y)
-        print("Distribuccion: ",self.notacion(self.lista_distribucion), "Cardinal: ",self.cardinal(self.notacion(self.lista_distribucion)))
+        print("Distribuccion: ",self.notacion(self.lista_distribucion))
     
     def cardinal(self,cadena):
         c=1
@@ -116,11 +116,9 @@ if __name__ == '__main__':
        s.cadena_lista()
        s.dividir_cadena()
        s.distribucion()
+
        """s.interseccion()
        s.concatenacion()
-      
        s.distribucion()"""
-
-
 
 
